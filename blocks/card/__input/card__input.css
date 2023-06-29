@@ -20,7 +20,7 @@
 
 @media (max-width: 860px) {
     .card__input {
-        width: 100%;
+        width: 200px;
         font-size: 14px;
         line-height: 17px;
         height: 57px;
