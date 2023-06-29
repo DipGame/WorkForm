@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}

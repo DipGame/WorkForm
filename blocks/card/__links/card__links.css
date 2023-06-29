@@ -1,0 +1,19 @@
+.card__links {
+    max-width: 713px;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 10px 0 0;
+}
+
+@media (max-width: 1182px) {
+    .card__links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 860px) {
+    .card__links {
+        margin: 28px 10px 0;
+        flex-direction: column;
+    }
+}

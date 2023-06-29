@@ -1,0 +1,21 @@
+.card__prof {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 860px) {
+    .card__prof {
+        margin: 15px 10px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .card__prof {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,13 @@
+.card__link {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1182px) {
+    .card__link {
+        margin: 20px 0 0 0;
+    }
+    .card__link:first-of-type {
+        margin: 0;
+    }
+}

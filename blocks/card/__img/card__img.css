@@ -1,0 +1,12 @@
+.card__img {
+    width: 205px;
+    object-fit: contain;
+    margin: 32px 49px 51px 33px;
+}
+
+@media (max-width: 860px) {
+    .card__img {
+        width: 148px;
+        margin: 32px 0 0 0;
+    }
+}

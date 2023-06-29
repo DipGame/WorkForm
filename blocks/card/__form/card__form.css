@@ -1,0 +1,16 @@
+.card__form {
+    overflow: hidden;
+    margin: 37px 10px 0 0;
+    display: flex;
+    max-width: 567px;
+    justify-content: space-between;
+}
+
+@media (max-width: 860px) {
+    .card__form {
+        flex-direction: column;
+        margin: 31px 27px 44px;
+        padding: 0;
+        border: 1px solid red;
+    }
+}
